@@ -1,0 +1,14 @@
+# put here your custom config value
+menu "Example Configuration"
+config WIFI_SSID
+    string "WiFi SSID"
+    default "myssid"
+    help
+	SSID (network name) to connect to.
+
+config WIFI_PASSWORD
+    string "WiFi Password"
+    default "mypassword"
+    help
+	WiFi password (WPA or WPA2) to use.
+endmenu
